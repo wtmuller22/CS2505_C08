@@ -1,0 +1,49 @@
+;
+; Existence searches that should find single matches:
+Cmd	1:	exists	Windmill	NM
+
+1 occurrences: Windmill NM
+----------------------------------------------------------------------
+Cmd	2:	exists	Last Canyon	NM
+
+1 occurrences: Last Canyon NM
+----------------------------------------------------------------------
+Cmd	3:	exists	Yucca Tank	NM
+
+1 occurrences: Yucca Tank NM
+----------------------------------------------------------------------
+;
+; Details searches that should find single matches:
+Cmd	4:	details_of	Windmill	NM
+
+FID:       924890
+Name:      Windmill
+Type:      Populated Place
+State:     NM
+County:    Hidalgo
+Longitude: 108d 37m 30s West   (-108.625053)
+Latitude:   31d 58m 40s North   (31.977869)
+
+----------------------------------------------------------------------
+Cmd	5:	details_of	Last Canyon	NM
+
+FID:       924857
+Name:      Last Canyon
+Type:      Valley
+State:     NM
+County:    San Juan
+Longitude: 108d 56m 30s West   (-108.941765)
+Latitude:   36d 47m 24s North   (36.789997)
+
+----------------------------------------------------------------------
+Cmd	6:	details_of	Bisti Badlands	NM
+
+FID:       924849
+Name:      Bisti Badlands
+Type:      Area
+State:     NM
+County:    San Juan
+Longitude: 108d 11m 42s West   (-108.195068)
+Latitude:   36d 17m 05s North   (36.284733)
+
+----------------------------------------------------------------------

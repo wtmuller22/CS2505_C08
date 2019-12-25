@@ -1,0 +1,40 @@
+;
+; Existence searches that should find single matches:
+Cmd	1:	exists	Gorman	NM
+
+1 occurrences: Gorman NM
+----------------------------------------------------------------------
+Cmd	2:	exists	Heck	NM
+
+1 occurrences: Heck NM
+----------------------------------------------------------------------
+Cmd	3:	exists	Big Arsenic Falls	NM
+
+1 occurrences: Big Arsenic Falls NM
+----------------------------------------------------------------------
+;
+; Distance_between searches:
+Cmd	4:	distance_between	924838	924839
+
+First:     ( 105d 17m 27s West,  36d 31m 50s North )  Gorman, NM
+Second:    ( 105d 18m 32s West,  36d 40m 02s North )  Heck, NM
+Distance:  15.3km
+----------------------------------------------------------------------
+Cmd	5:	distance_between	924838	924842
+
+First:     ( 105d 17m 27s West,  36d 31m 50s North )  Gorman, NM
+Second:    ( 105d 42m 19s West,  36d 40m 31s North )  Big Arsenic Falls, NM
+Distance:  40.3km
+----------------------------------------------------------------------
+Cmd	6:	distance_between	924890	924839
+
+First:     ( 108d 37m 30s West,  31d 58m 40s North )  Windmill, NM
+Second:    ( 105d 18m 32s West,  36d 40m 02s North )  Heck, NM
+Distance:  603.7km
+----------------------------------------------------------------------
+Cmd	7:	distance_between	924879	924864
+
+First:     ( 106d 49m 57s West,  32d 42m 07s North )  Estell Tank, NM
+Second:    ( 107d 45m 28s West,  32d 33m 20s North )  Montezuma Canyon, NM
+Distance:  88.2km
+----------------------------------------------------------------------

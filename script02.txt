@@ -1,0 +1,19 @@
+; Script 2:  100-element db file, no duplicate feature names
+;            exists commands
+;            distance_between commands
+;
+; Execution:  gis script02.txt log02.txt
+;
+db_file	NM_100.txt
+table_sz	200
+;
+; Existence searches that should find single matches:
+exists	Gorman	NM
+exists	Heck	NM
+exists	Big Arsenic Falls	NM
+;
+; Distance_between searches:
+distance_between	924838	924839
+distance_between	924838	924842
+distance_between	924890	924839
+distance_between	924879	924864

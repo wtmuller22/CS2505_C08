@@ -1,0 +1,18 @@
+; Script 1:  100-element db file, no duplicate feature names
+;            exists commands
+;            details commands
+;
+; Execution:  gis script01.txt log01.txt
+;
+db_file	NM_100.txt
+table_sz	200
+;
+; Existence searches that should find single matches:
+exists	Windmill	NM
+exists	Last Canyon	NM
+exists	Yucca Tank	NM
+;
+; Details searches that should find single matches:
+details_of	Windmill	NM
+details_of	Last Canyon	NM
+details_of	Bisti Badlands	NM
